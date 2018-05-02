@@ -6,7 +6,7 @@
   "scripts": {
     "clean-dist": "rm -rf ./dist",
     "build": "yarn run clean-dist && NODE_ENV=production && babel src -d dist",
-    "story": "start-storybook -p 9001 -c .storybook"
+    "start": "start-storybook -p 9001 -c .storybook"
   },
   "keywords": [
     "react",
