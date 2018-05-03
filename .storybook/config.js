@@ -1,8 +1,9 @@
 import { configure } from '@storybook/react';
 
 function loadStories() {
-  require('../stories/index.js');
-  // You can require as many stories as you need.
+  require('../stories/general.js');
+  require('../stories/button.js');
+  require('../stories/grid.js');
 }
 
 configure(loadStories, module);

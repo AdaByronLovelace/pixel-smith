@@ -17,21 +17,19 @@
   "author": "Emily Dawn Smith",
   "homepage": "https://github.com/AdaByronLovelace/pixel-smith",
   "license": "ISC",
-  "peerDependencies": {
-    "babel-runtime": "^6.26.0",
-    "react": "16.3.2",
-    "styled-jsx": "2.2.6"
-  },
   "devDependencies": {
     "@storybook/react": "^3.4.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "file-loader": "^1.1.11",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "styled-jsx": "^2.2.6",
-    "prop-types": "^15.6.1"
+    "webpack": "^4.6.0"
   },
   "repository": "https://github.com/AdaByronLovelace/pixel-smith",
   "private": false
